@@ -1,0 +1,52 @@
+@use './font.scss';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+:root {
+	--input-error: hsl(0, 100%, 66%);
+	--white: hsl(0, 0%, 100%);
+	--gray: hsl(270, 3%, 87%);
+	--gray-violet: hsl(279, 6%, 55%);
+	--violet: hsl(278, 68%, 11%);
+	--input-active: hsl(278, 94%, 30%);
+}
+
+body {
+	font-family: 'space-grotesk';
+}
+
+div,
+span,
+input,
+button {
+	font-family: 'space-grotesk';
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+//Scroll
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #2b0c3b;
+	border-radius: 10px;
+}

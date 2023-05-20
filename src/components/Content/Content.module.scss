@@ -1,0 +1,15 @@
+.Content {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.4s;
+
+	@media (max-width: 970px) {
+		width: 100%;
+		position: relative;
+		align-items: baseline;
+		top: 100px;
+	}
+}
